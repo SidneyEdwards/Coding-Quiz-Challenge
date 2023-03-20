@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+}
+
+
+.header{
+    text-align: center;
+    padding: 10%;
+    margin: 0%;
+    color:fuchsia;
+    background-image: url("Sid-Vicious.jpg")
+}
+
+.main {
+  font-size: smaller;
+}
+
+.p1{
+display: flex;
+justify-content: center;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  background-color: hsl(288, 30%, 52%);
+  }
+
+
+#start-btn{
+    display: flex;
+    margin: 5%;
+    justify-content: center;
+    border-radius: 1vh;
+    border-width: medium;
+    background-color: hsl(278, 91%, 36%);
+    color: hsl(0, 0%, 100%);
+    font-size: large;
+    cursor: pointer;
+}
+
+#time-al{
+    justify-content: right;
+    font-size: smaller;
+    cursor: pointer;
+}
+
+#high-score-view{
+  justify-content: right;
+  margin: 6%;
+  font-size: smaller;
+  cursor: pointer;
+  background-color:darkorchid;
+}
+
+.user-info{
+  cursor:text;
+
+}
+
+.main{
+    justify-content:space-evenly;
+    font-size: x-small;
+    cursor: pointer;
+}
+
+
+  
+@media screen and (max-width: 768px) {
+}
